@@ -1,5 +1,5 @@
 <?php if (!defined('APP_START')) exit('<pre>No direct script access allowed!</pre>');
-class Task
+class TasksGroup
 {
 /**
  * @author          Soufiane Elkhamlichi <selkhamlichi97@gmail.com>
