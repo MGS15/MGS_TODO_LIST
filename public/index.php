@@ -7,6 +7,9 @@
 	<title>Todo List - MGS</title>
 </head>
 <body>
-	<?php echo "Hello World"; ?>
+	<?php
+		require_once('C:\xampp\htdocs\todolist\app\config\init.conf.php');
+		echo CONFIG_PATH;
+	?>
 </body>
 </html>
