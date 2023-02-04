@@ -24,6 +24,7 @@ define('MODULES_PATH', BASE_PATH . DS . 'modules');
 define('HELPERS_PATH', BASE_PATH . DS . 'helpers');
 define('ASSETS_PATH', BASE_PATH . DS . 'assets');
 define('STORAGE_PATH', BASE_PATH . DS . 'storage');
+define('PUBLIC_PATH', dirname(BASE_PATH) . DS . 'public');
 
 # defining coockies information
 define('COOKIE_EXPIRE', time() + 60 * 60 * 24);
