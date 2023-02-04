@@ -12,6 +12,11 @@ class TasksGroup extends TaskElement
 {
 	private string	$tasks;
 
+	function __construct()
+	{
+		$this->id = uniqid('usr_', true);
+	}
+
 	/* Getters */
 	public function	getTasks() : string { return $this->tasks; }
 

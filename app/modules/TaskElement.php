@@ -21,25 +21,25 @@ abstract class TaskElement
 	abstract protected function doSomething();
 
 	/* Getters */
-	protected function	getID() : string { return $this->id; }
-	protected function	getName() : string { return $this->name; }
-	protected function	getDescription() : string { return $this->description; }
-	protected function	getOwner() : string { return $this->owner; }
-	protected function	getPermissions() : string { return $this->permissions; }
-	protected function	getCreatedBy() : string { return $this->createdBy; }
-	protected function	getUpdatedBy() : string { return $this->updatedBy; }
-	protected function	getCreationDate() { return $this->creationDate; }
-	protected function	getLastUpdateDate() { return $this->lastUpdateDate; }
+	public function	getID() : string { return $this->id; }
+	public function	getName() : string { return $this->name; }
+	public function	getDescription() : string { return $this->description; }
+	public function	getOwner() : string { return $this->owner; }
+	public function	getPermissions() : string { return $this->permissions; }
+	public function	getCreatedBy() : string { return $this->createdBy; }
+	public function	getUpdatedBy() : string { return $this->updatedBy; }
+	public function	getCreationDate() { return $this->creationDate; }
+	public function	getLastUpdateDate() { return $this->lastUpdateDate; }
 	
 	/* Setters */
-	protected function	setID($value) { $this->id = $value; }
-	protected function	setName($value) { $this->name = $value; }
-	protected function	setDescription($value) { $this->description = $value; }
-	protected function	setOwner($value) { $this->owner = $value; }
-	protected function	setPermissions($value) { $this->permissions = $value; }
-	protected function	setCreatedBy($value) { $this->createdBy = $value; }
-	protected function	setUpdatedBy($value) { $this->updatedBy = $value; }
-	protected function	setCreationDate($value) { $this->creationDate = $value; }
-	protected function	setLastUpdateDate($value) { $this->lastUpdateDate = $value; }
+	public function	setID($value) { $this->id = $value; }
+	public function	setName($value) { $this->name = $value; }
+	public function	setDescription($value) { $this->description = $value; }
+	public function	setOwner($value) { $this->owner = $value; }
+	public function	setPermissions($value) { $this->permissions = $value; }
+	public function	setCreatedBy($value) { $this->createdBy = $value; }
+	public function	setUpdatedBy($value) { $this->updatedBy = $value; }
+	public function	setCreationDate($value) { $this->creationDate = $value; }
+	public function	setLastUpdateDate($value) { $this->lastUpdateDate = $value; }
 }
 ?>
