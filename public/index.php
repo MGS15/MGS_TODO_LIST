@@ -7,6 +7,6 @@
 	<title>Todo List - MGS</title>
 </head>
 <body>
-	
+	<?php echo "Hello World"; ?>
 </body>
 </html>
