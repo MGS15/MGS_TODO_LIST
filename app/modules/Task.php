@@ -15,6 +15,11 @@ class Task extends TaskElement
 	private			$startDate;
 	private			$dueDate;
 
+	function __construct()
+	{
+		$this->id = uniqid('usr_', true);
+	}
+
 	/* Getters */
 	public function	getTaskFor() : string { return $this->taskFor; }
 	public function getStatus() { return $this->status; }
