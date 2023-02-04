@@ -1,10 +1,9 @@
-<?php
+<?php if (!defined('APP_START')) exit('<pre>No direct script access allowed!</pre>');
 /**
- * @framework       MGS - Todo List 
+ * @author          Soufiane Elkhamlichi <selkhamlichi97@gmail.com>
  * @version         1.0
- * @author          Soufiane Elkhamlichi <selkhamlichi97@gmail.tech>
- * @date            2022
- * @name            User.php	
+ * @date            2022-02-04
+ * @name            User.php
  */
 class User
 {
