@@ -15,6 +15,11 @@ class User
 	private string	$password;
 	private string	$avatar;
 
+
+	function __construct()
+	{
+		$this->id = uniqid('usr_', true);
+	}
 	
 	/* Getters */
 	public function getUserID() { return $this->id; }
