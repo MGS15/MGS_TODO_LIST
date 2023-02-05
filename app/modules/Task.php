@@ -17,7 +17,7 @@ class Task extends TaskElement
 
 	function __construct()
 	{
-		$this->id = uniqid('usr_', true);
+		$this->id = uniqid('tsk_', true);
 	}
 
 	/* Getters */
